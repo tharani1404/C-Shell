@@ -1,0 +1,15 @@
+hop ../..
+hop ./test
+hop -
+hop ../..
+hop ./test
+hop -
+hop test
+hop ..
+hop /Part-A/test
+hop ~
+reveal -l .
+reveal -l -a ../Part-A
+sleep 2
+sleep 2 &
+seek test ../Part-A
